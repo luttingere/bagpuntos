@@ -49,6 +49,8 @@ Router::scope('/', function ($routes) {
      */
     $routes->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
 
+    $routes->connect('/', ['controller' => 'Registration', 'action' => 'display', 'registration']);
+
     /**
      * ...and connect the rest of 'Pages' controller's URLs.
      */

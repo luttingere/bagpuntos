@@ -40,7 +40,7 @@
                     <li><?= $this->Html->link('Inicio', '/pages/home', ['class' => 'active']); ?></li>
                     <li><?= $this->Html->link('Aliados', '/pages/aliados'); ?></li>
                     <li><?= $this->Html->link('Contacto', '/pages/contacto'); ?></li>
-                    <li><?= $this->Html->link('Usuarios', '/pages/usuarios'); ?></li>
+                    <li><?= $this->Html->link('Usuarios', '/registration/registration'); ?></li>
                 </ul>
             </nav>
         </div>

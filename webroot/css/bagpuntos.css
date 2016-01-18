@@ -1,0 +1,27 @@
+.toTheMiddle{
+    margin: 0 auto;
+}
+.container{
+    width: 100%;
+}
+.colpanel{
+    width: 50%;
+}
+
+div .form-group{
+    margin-bottom: 15px;
+}
+div .form-group label{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    width: 100%;
+}
+
+div .form-group input{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    width: 70%;
+    line-height: inherit;
+}

@@ -12,7 +12,7 @@ $this->assign('title', 'Aliados :: BagPuntos');
 					<div class="wrapper margin-bot">
 						<article class="col-1">
 							<div class="prev-indent-bot">
-								<figure class="img-border"><a href="#"><?= $this->Html->image('page3-img1.jpg') ?></a></figure>
+								<figure class="img-border"><a href="#"><?= $this->Html->image('pages/page3-img1.jpg') ?></a></figure>
 								<div class="clear"></div>
 							</div>
 							<h6>Nombre de Aliado Comercial</h6>
@@ -21,7 +21,7 @@ $this->assign('title', 'Aliados :: BagPuntos');
 						</article>
 						<article class="col-1">
 							<div class="prev-indent-bot">
-								<figure class="img-border"><a href="#"><?= $this->Html->image('page3-img2.jpg') ?></a></figure>
+								<figure class="img-border"><a href="#"><?= $this->Html->image('pages/page3-img2.jpg') ?></a></figure>
 								<div class="clear"></div>
 							</div>
 							<h6>Nombre de Aliado Comercial</h6>
@@ -30,7 +30,7 @@ $this->assign('title', 'Aliados :: BagPuntos');
 						</article>
 						<article class="col-2">
 							<div class="prev-indent-bot">
-								<figure class="img-border"><a href="#"><?= $this->Html->image('page3-img3.jpg') ?></a></figure>
+								<figure class="img-border"><a href="#"><?= $this->Html->image('pages/page3-img3.jpg') ?></a></figure>
 								<div class="clear"></div>
 							</div>
 							<h6>Nombre de Aliado Comercial</h6>
@@ -41,7 +41,7 @@ $this->assign('title', 'Aliados :: BagPuntos');
 					<div class="wrapper margin-bot">
 						<article class="col-1">
 							<div class="prev-indent-bot">
-								<figure class="img-border"><a href="#"><?= $this->Html->image('page3-img4.jpg') ?></a></figure>
+								<figure class="img-border"><a href="#"><?= $this->Html->image('pages/page3-img4.jpg') ?></a></figure>
 								<div class="clear"></div>
 							</div>
 							<h6>Nombre de Aliado Comercial</h6>
@@ -50,7 +50,7 @@ $this->assign('title', 'Aliados :: BagPuntos');
 						</article>
 						<article class="col-1">
 							<div class="prev-indent-bot">
-								<figure class="img-border"><a href="#"><?= $this->Html->image('page3-img5.jpg') ?></a></figure>
+								<figure class="img-border"><a href="#"><?= $this->Html->image('pages/page3-img5.jpg') ?></a></figure>
 								<div class="clear"></div>
 							</div>
 							<h6>Nombre de Aliado Comercial</h6>
@@ -59,7 +59,7 @@ $this->assign('title', 'Aliados :: BagPuntos');
 						</article>
 						<article class="col-2">
 							<div class="prev-indent-bot">
-								<figure class="img-border"><a href="#"><?= $this->Html->image('page3-img6.jpg') ?></a></figure>
+								<figure class="img-border"><a href="#"><?= $this->Html->image('pages/page3-img6.jpg') ?></a></figure>
 								<div class="clear"></div>
 							</div>
 							<h6>Nombre de Aliado Comercial</h6>
@@ -70,7 +70,7 @@ $this->assign('title', 'Aliados :: BagPuntos');
 					<div class="wrapper">
 						<article class="col-1">
 							<div class="prev-indent-bot">
-								<figure class="img-border"><a href="#"><?= $this->Html->image('page3-img7.jpg') ?></a></figure>
+								<figure class="img-border"><a href="#"><?= $this->Html->image('pages/page3-img7.jpg') ?></a></figure>
 								<div class="clear"></div>
 							</div>
 							<h6>Nombre de Aliado Comercial</h6>
@@ -79,7 +79,7 @@ $this->assign('title', 'Aliados :: BagPuntos');
 						</article>
 						<article class="col-1">
 							<div class="prev-indent-bot">
-								<figure class="img-border"><a href="#"><?= $this->Html->image('page3-img8.jpg') ?></a></figure>
+								<figure class="img-border"><a href="#"><?= $this->Html->image('pages/page3-img8.jpg') ?></a></figure>
 								<div class="clear"></div>
 							</div>
 							<h6>Nombre de Aliado Comercial</h6>
@@ -88,7 +88,7 @@ $this->assign('title', 'Aliados :: BagPuntos');
 						</article>
 						<article class="col-2">
 							<div class="prev-indent-bot">
-								<figure class="img-border"><a href="#"><?= $this->Html->image('page3-img9.jpg') ?></a></figure>
+								<figure class="img-border"><a href="#"><?= $this->Html->image('pages/page3-img9.jpg') ?></a></figure>
 								<div class="clear"></div>
 							</div>
 							<h6>Nombre de Aliado Comercial</h6>
