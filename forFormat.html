@@ -37,10 +37,12 @@
             </h1>
             <nav>
                 <ul class="menu">
-                    <li><?= $this->Html->link('Inicio', '/pages/home', ['class' => 'active']); ?></li>
-                    <li><?= $this->Html->link('Aliados', '/pages/aliados'); ?></li>
-                    <li><?= $this->Html->link('Contacto', '/pages/contacto'); ?></li>
-                    <li><?= $this->Html->link('Usuarios', '/pages/usuarios'); ?></li>
+
+                    <li><?=  $this->Html->link('Inicio','/pages/home',['class' => 'active']);?></li>
+                    <li><?=  $this->Html->link('Aliados','/pages/aliados');?></li>
+                    <li><a href="contacts.html">Contacto</a></li>
+                    <li><a href="rlra-php-master/index.php">Usuarios</a></li>
+
                 </ul>
             </nav>
         </div>
@@ -67,7 +69,7 @@
                 </div>
             </article>
             <article class="fcol-2">
-                <figure class="img-border"><?= $this->Html->image('pages/page1-img1.jpg') ?></figure>
+                <figure class="img-border"><?= $this->Html->image('page1-img1.jpg') ?></figure>
                 <center><p class="p3">Publicidad</p></center>
 
             </article>
