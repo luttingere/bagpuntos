@@ -25,3 +25,99 @@ div .form-group input{
     width: 70%;
     line-height: inherit;
 }
+
+/* registro */
+
+.container1{
+    width: 100%;
+    margin-top: -215px;
+    margin-left: -15%;
+}
+.colpanel1{
+    width: 25%;
+}
+
+.checkbox{
+    margin-right: 10px;
+}
+
+#enviar {
+    display:inline-block;
+    padding:0 24px;
+    margin-right:140px;
+    margin-bottom:50px;
+    font-size:14px;
+    line-height:38px;
+    color:#FFf;
+    border:1px solid #fff;
+    background:#ad1d58;
+    box-shadow:0 0 2px #bbb;
+    cursor:pointer;
+}
+#enviar:hover {background:#808080;color:#fff}
+
+.list li {
+    line-height:15px;
+    padding:5px 0;
+    
+    font-size: 14px;
+}
+
+.container2 {
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 15%;
+}
+.colpanel2 {
+    width: 25%;
+}
+
+.buttons-w {
+    padding:18px 0 0 0;
+    text-align:right;
+    margin-bottom: 10px;
+}
+
+.buttons-w a {
+margin-right: 10px;
+
+}
+
+/*Activacion de cuenta*/
+
+.container3{
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 15px;
+}
+.colpanel3{
+    width: 25%;
+}
+
+div .form-activo{
+    margin-bottom: 15px;
+}
+div .form-activo label{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    width: 100%;
+}
+
+div .form-activo input{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    width: 70%;
+    line-height: inherit;
+}
+
+#buttons-activar {
+    padding:10% 0 0 0;
+    text-align:right;
+    margin-bottom: 10px;
+}
+
+#indent {
+    padding-right: 70px;
+}

@@ -100,7 +100,7 @@ ul.pagination li a {
 
 ul.pagination li.active a {
     background-color: #DCE47E;
-    color: #FFF;
+    color: red;
     font-weight: bold;
     cursor: default;
 }

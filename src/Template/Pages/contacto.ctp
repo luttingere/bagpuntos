@@ -18,6 +18,7 @@ $this->assign('title', 'Contacto :: BagPuntos');
             });
         });
     </script>
+    <?= $this->Html->script('validation.js') ?>
 </head>
 <body id="page5">
 <section id="content">
@@ -41,33 +42,34 @@ $this->assign('title', 'Contacto :: BagPuntos');
                 </article>
                 <article class="col-2">
                     <h3>Escr&iacutebenos</h3>
-                    <form id="contact-form">
+                   
+                    <form  name="registro5" id="contact-form" method ="POST" action="" onSubmit="return validation();">
                         <fieldset>
                             <label>
-                                <input type="text" value="Nombre" onBlur="if(this.value=='') this.value='Name'"
-                                       onFocus="if(this.value =='Name' ) this.value=''"/>
+                                <input type="text" name="nombre" id="nombre" placeholder="Nombre" />
                             </label>
+                            
                             <label>
-                                <input type="text" value="E-mail" onBlur="if(this.value=='') this.value='Email'"
-                                       onFocus="if(this.value =='Email' ) this.value=''"/>
+                                <input type="text" name="email" id="email" placeholder="E-mail" />
                             </label>
+                            
                             <label>
-                                <input type="text" value="Telefono" onBlur="if(this.value=='') this.value='Phone'"
-                                       onFocus="if(this.value =='Phone' ) this.value=''"/>
+                                <input type="text" name="telefono" id="telef" placeholder="Telefono"/>
+                            
                             </label>
-                            <textarea onBlur="if(this.value=='') this.value='Message'"
-                                      onFocus="if(this.value =='Message' ) this.value=''">Mensaje</textarea>
+                            <textarea type="text" name="mensaje" id="mensaje"placeholder="Mensaje"></textarea>
+                            
                             <div class="buttons-wrapper">
-                                <a class="button" onClick="document.getElementById('contact-form').reset()">Borrar</a>
                                 <a class="button" onClick="document.getElementById('contact-form').submit()">Enviar</a>
-                            </div>
+                                <a class="button" onClick="document.getElementById('contact-form').reset()">Borrar</a>
+                             </div>
                         </fieldset>
                     </form>
                 </article>
             </div>
         </div>
     </div>
-</section>
+</sec id="mensaje">
 <script type="text/javascript"> Cufon.now(); </script>
 <script type="text/javascript">
     $(window).load(function () {

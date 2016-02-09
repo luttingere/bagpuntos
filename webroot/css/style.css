@@ -85,6 +85,7 @@ p {margin-bottom:18px}
 .button2,
 h1 a {text-decoration:none}	
 
+
 /*********************************header*************************************/
 header {
 	width:100%;
@@ -285,7 +286,7 @@ h6 {color:#000;margin-bottom:5px}
 	display:inline-block;
 	padding:0 24px;
 	margin-left:2px;
-	margin-bottom:2px;
+	margin-bottom:10px;
 	font-size:14px;
 	line-height:38px;
 	color:#FFf;
@@ -295,6 +296,15 @@ h6 {color:#000;margin-bottom:5px}
 	cursor:pointer;
 }
 .button:hover {background:#808080;color:#fff}
+.list li {
+	line-height:15px;
+	padding:5px 0;
+	
+	font-size: 13px;
+}
+.list li.last-item {background:none}
+	.list li a {color:#808080}
+	.list li a:hover {color:#ad1d58}
 
 .list-1 li {
 	line-height:20px;
@@ -396,7 +406,18 @@ dl span {float:left;width:80px}
 			}
 		.buttons-wrapper {padding:18px 0 0 0;text-align:right}
 		.buttons-wrapper a {margin-left:15px}
-		
+
+#validation .has-error .control-label,
+#validation .has-error .help-block,
+#validation .has-error .form-control-feedback {
+    color: #f39c12;
+}
+
+#validation .has-success .control-label,
+#validation .has-success .help-block,
+#validation .has-success .form-control-feedback {
+    color: #18bc9c;
+}		
 /****************************footer************************/
 footer {
 	width:100%;

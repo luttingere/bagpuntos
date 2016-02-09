@@ -10,20 +10,27 @@
     <!-- CSS -->
     <?= $this->Html->css('reset.css') ?>
     <?= $this->Html->css('style.css') ?>
+    <?= $this->Html->css('bagpuntos.css') ?>
     <?= $this->Html->css('layout.css') ?>
+    
 
     <!-- JS -->
     <?= $this->Html->script('jquery-1.6.3.min.js') ?>
+    <?= $this->Html->script('jquery.easing.1.3.js') ?>
     <?= $this->Html->script('cufon-yui.js') ?>
     <?= $this->Html->script('cufon-yui.js') ?>
+    <?= $this->Html->script('validation.js') ?>
     <?= $this->Html->script('cufon-replace.js') ?>
     <?= $this->Html->script('NewsGoth_400.font.js') ?>
     <?= $this->Html->script('NewsGoth_700.font.js') ?>
     <?= $this->Html->script('Vegur_300.font.js') ?>
     <?= $this->Html->script('FF-cash.js') ?>
-    <?= $this->Html->script('jquery.easing.1.3.js') ?>
     <?= $this->Html->script('tms-0.3.js') ?>
     <?= $this->Html->script('tms_presets.js') ?>
+    <?= $this->Html->script('valida_registro.js') ?>
+    <?= $this->Html->script('valida_registro1.js') ?>
+
+
 
 
 </head>
